@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO --> 
+    <title>JavaScript - Новая надежда</title>
+    <meta name="description" content="WebSlides is the easiest way to make HTML presentations, portfolios, and landings. Just essential features.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/base.css">
+
+    <!-- CSS Colors -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/colors.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" sizes="192x192" href="static/images/favicons/icon-192x192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+
+  </head>
+  <body>    
+    <main role="main">
+      <article id="webslides">
+
+        <section class="bg-black">
+          <div class="wrap aligncenter">
+            <h1 class="text-landing" style="color: red; margin-bottom: 20px"><b>Внимание</b></h1>
+            <p style="font-size: 42px; line-height: 50px">Данный материал отображает личное мнение автора, которое может не совпадать с мнением окружающих. Автор никак не пытается ущемить кого-либо, а лишь высказывает свое видение, основываясь на своем личном опыте</p>
+            <p style="font-size: 28px; line-height: 30px">
+              А тут много мелкого и непонятного текста, который все равно никогда обычно не читают.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <video class="background-video dark" autoplay muted loop poster="static/images/sw_intro_bg.jpg">
+            <source src="static/video/sw_intro_bg.mp4" type="video/mp4">
+          </video>
+          <div class="wrap aligncenter zoomIn slow">
+            <p><img src="static/images/sw_intro.png" alt="JavaScript" width="600"></p>
+            <h2 class="text-subtitle">Новая надежда</h2>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <div class="wrap" style="max-width: 700px; width: auto; color: #03fffe">
+            <h2>Давным-давно, в недалеком мире Web-разработки...</h2>
+          </div>
+        </section>
+
+        <section class="bg-black-blue">
+          <span class="background dark" style="background-image:url('static/images/imperial-fleet.jpg')"></span>
+          <canvas class="background" id="websnowjqcan" style="width:100%;height:100%"></canvas>
+          <div class="wrap aligncenter">
+            <h1 style="font-size: 70px">И зачем нужны эти<br>JS фреймворки ?</h1>
+            <h2 class="text-intro" style="font-size: 40px; line-height: 50px">Ведь падающий снег на страницу можно и без них добавить</h2>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background dark" style="background-image:url('static/images/qui-gon.png')"></span>
+          <div class="wrap aligncenter">
+            <img class="alignright size-50 whitelogo" src="static/images/dojo.png">
+            <h1>2004 год</h1>
+            <p class="text-intro" style="font-size: 40px; line-height: 50px">На свет появлется <b>DOJO&nbsp;Toolkit</b></p>
+            <p><a href="https://dojotoolkit.org/">https://dojotoolkit.org</a></p>
+          </div>
+        </section>
+
+        <section>
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h3><b>Back to the future</b></h3>
+                <p class="text-intro text-pull-right"><b>Dojo</b> использовал <code>require</code> задолго до появления Browserify</p>
+                <p class="text-intro text-pull-right">И да, в нем были компоненты !!</p>
+              </div>
+              <div class="column">
+                <pre style="font-size: 36px; line-height: 40px">
+<b style="color: #3a4977">&lt;script></b>
+dojo.require(”dojo.widget.Editor2”);
+<b style="color: #3a4977">&lt;/script></b>
+
+<b style="color: #a4baff">&lt;!-- ... --></b>
+
+<b style="color: #3a4977">&lt;textarea</b><b> dojoType=”Editor2”</b><b style="color: #3a4977">></b>
+ ...
+<b style="color: #3a4977">&lt;/textarea></b>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background dark" style="background-image:url('static/images/uotto.png')"></span>
+          <div class="wrap">
+            <h2 style="margin-bottom: 20px">Пакеты, предоставляемые Dojo в то время</h2>
+            <ul style="font-size: 28px; line-height: 30px;">
+              <li style="margin-bottom: 5px"><b>dojo.collections</b> — набор полезных структур данных (список, очередь, множество, стек, словарь и т. д.);</li>
+              <li style="margin-bottom: 5px"><b>dojo.crypto</b> — API для шифрования данных (Blowfish, MD5, Rijndael, SHA);</li>
+              <li style="margin-bottom: 5px"><b>dojo.date</b> — функциональность для работы с датами;</li>
+              <li style="margin-bottom: 5px"><b>dojo.dnd</b> — API для реализации drag&amp;drop;</li>
+              <li style="margin-bottom: 5px"><b>dojo.event</b> — API для обработки событий с поддержкой AOP и topic/queue-функциональности;</li>
+              <li style="margin-bottom: 5px"><b>dojo.lfx</b> — набор всевозможных специальных эффектов как для HTML, так и для SVG;</li>
+              <li style="margin-bottom: 5px"><b>dojo.io</b> — различные варианты ввода-вывода, включая cookies и IFrame;</li>
+              <li style="margin-bottom: 5px"><b>dojo.lang</b> — пакет существенным образом дополняет базовые возможности языка JavaScript, добавляя closure based functions и т. д.;</li>
+              <li style="margin-bottom: 5px"><b>dojo.logging</b> — мини-framework для управления авторизациями;</li>
+              <li style="margin-bottom: 5px"><b>dojo.math</b> — основные математические манипуляции (curves, points, matrices);</li>
+              <li style="margin-bottom: 5px"><b>dojo.reflect</b> — пакет, реализующий reflection routines;</li>
+              <li style="margin-bottom: 5px"><b>dojo.storage</b> — пакет, отвечающий за офлайновое хранение данных на клиентской стороне;</li>
+              <li style="margin-bottom: 5px"><b>dojo.string</b> — пакет позволяет делить строки, менять их кодировку и многое другое с помощью простых функций;</li>
+              <li style="margin-bottom: 5px"><b>dojo.undo</b> — менеджер для undo-функциональности;</li>
+              <li style="margin-bottom: 5px"><b>dojo.uri</b> — пакет для работы с URI;</li>
+              <li style="margin-bottom: 5px"><b>dojo.widget</b> — пакет, позволяющий создавать HTML/JavaScript-компоненты, которые затем можно включать с помощью простых тегов;</li>
+              <li style="margin-bottom: 5px"><b>dojo.xml</b>, <b>dojo.dom</b> — два пакета, которые намного упрощают манипуляции с DOM и XML;</li>
+              <li style="margin-bottom: 5px"><b>dojo.style</b> — позволяет легко манипулировать данными в CSS (доступ к размерам и т. д.).</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background light" style="background-image:url('static/images/darth-maul.jpg')"></span>
+          <div class="wrap">
+            <h1 class="alignleft size-50">2006 год</h1>
+            <h1 class="alignright size-50" style="text-align: right"><b>JQuery</b></h1>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background dark" style="background-image:url('static/images/sw-universe.jpg')"></span>
+          <div class="wrap aligncenter">
+            <img src="static/images/angular-logo.png">
+            <img class="whitelogo" src="static/images/backbone-logo.png">
+            <img src="static/images/knockout-logo.png">
+            <img class="whitelogo" src="static/images/sproutcore-logo.png">
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background light" style="background-image:url('static/images/enakin.png')"></span>
+          <div class="wrap">
+            <img src="static/images/react-logo.png">
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background light" style="background-image:url('static/images/darth-vader.jpg')"></span>
+          <div class="wrap">
+            <img class="alignright" src="static/images/react-logo.png">
+          </div>
+        </section>
+
+        <section>
+          <span class="background light" style="background-image:url('static/images/luke-skywalker.jpg')"></span>
+          <div class="wrap">
+            <img class="alignleft" src="static/images/vue-logo.png">
+          </div>
+        </section>
+
+        <section>
+          <span class="background light" style="background-image:url('static/images/pineapple.jpg')"></span>
+        </section>
+
+        <section class="fullscreen">
+          <div class="card-50">
+            <div class="flex-content">
+<pre style="font-size: 36px; line-height: 40px; background: none; box-shadow: none; border: none">
+<b><span style="color: #2f6f9f">&lt;div</span> id="<span style="color: #d44950">app</span>"<span style="color: #2f6f9f">></span>
+  <span style="color: #2f6f9f">&lt;h1></span>{{ message }}<span style="color: #2f6f9f">&lt;/h1></span>
+<span style="color: #2f6f9f">&lt;/div></span></b>
+</pre>
+            </div>
+            <figure>
+              <img src="static/images/r2-d2.jpg" alt="R2-D2">
+            </figure>
+          </div>
+        </section>
+
+        <section class="fullscreen">
+          <div class="card-50">
+            <div class="flex-content">
+<pre style="font-size: 36px; line-height: 40px; background: none; box-shadow: none; border: none">
+<b><span style="color: #2f6f9f">&lt;div</span> id="<span style="color: #d44950">app</span>"<span style="color: #2f6f9f">></span>
+  <span style="color: #2f6f9f">&lt;h1></span>{{ message }}<span style="color: #2f6f9f">&lt;/h1></span>
+<span style="color: #2f6f9f">&lt;/div></span>
+
+<span style="color: #2f6f9f">&lt;script</span> src="<span style="color: #d44950">https://unpkg.com/vue/dist/vue.js</span>"<span style="color: #2f6f9f">>&lt;/script></span>
+<span style="color: #2f6f9f">&lt;script></span>
+<span style="color: #626fc9">new</span> Vue({
+  <span style="color: #bc670f">el</span>: <span style="color: #bc670f">'#app'</span>,
+  <span style="color: #61862f">data</span>: () <span style="color: #6d0bbc">=></span> ({
+    <span style="color: #bc670f">message</span>: <span style="color: #bc670f">'Hello R2-D2!'</span>
+  })
+})
+<span style="color: #2f6f9f">&lt;/script></span>
+</b></pre>
+            </div>
+            <figure>
+              <img src="static/images/r2-d2.jpg" alt="R2-D2">
+            </figure>
+          </div>
+        </section>
+
+        <section class="fullscreen">
+          <div class="card-50">
+            <div class="flex-content">
+<pre style="font-size: 36px; line-height: 40px; background: none; box-shadow: none; border: none">
+<b><span style="color: #2f6f9f">&lt;template</span> lang="<span style="color: #d44950">pug</span>"<span style="color: #2f6f9f">></span>
+<span style="color: #0c8bff">#app</span>: <span style="color: #2f6f9f">h1</span> {{ message }}
+<span style="color: #2f6f9f">&lt;/template></span>
+
+<span style="color: #2f6f9f">&lt;script></span>
+<span style="color: #626fc9">export default</span> {
+  <span style="color: #61862f">data</span>: () <span style="color: #6d0bbc">=></span> ({
+    <span style="color: #bc670f">message</span>: <span style="color: #bc670f">'Hello R2-D2!'</span>
+  })
+}
+<span style="color: #2f6f9f">&lt;/script></span>
+</b></pre>
+            </div>
+            <figure>
+              <img src="static/images/r2-d2.jpg" alt="R2-D2">
+            </figure>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background light" style="background-image:url('static/images/vue-vs-react.jpg')"></span>
+          <div class="wrap">
+            <h1 class="aligncenter" style="font-size: 130px">Vue <b>VS</b> React</h1>
+          </div>
+        </section>
+
+        <section class="fullscreen">
+          <div class="card-50">
+            <div class="flex-content bg-black">
+            <div style="position: absolute; top: 0; right: 0; padding: 18px; font-size: 40px">React</div>
+<pre style="font-size: 30px; line-height: 1; background: none; box-shadow: none; border: none">
+<b><span style="color: #626fc9">class</span> Timer <span style="color: #626fc9">extends</span> React.Component {
+  <span style="color: #8BC34A">constructor</span> (props) {
+    <span style="color: #8BC34A">super</span>(props);
+    this.state = {<span style="color: #bc670f">secondsElapsed</span>: 0};
+  }
+
+  <span style="color: #8BC34A">tick</span> () {
+    this.<span style="color: #8BC34A">setState</span>((prevState) <span style="color: #c382f7">=></span> ({
+      <span style="color: #bc670f">secondsElapsed</span>: prevState.secondsElapsed + 1
+    }));
+  }
+
+  <span style="color: #8BC34A">componentDidMount</span> () {
+    this.interval = <span style="color: #8BC34A">setInterval</span>(
+      () <span style="color: #c382f7">=></span> this.<span style="color: #8BC34A">tick</span>(),
+      1000
+    );
+  }
+
+  <span style="color: #8BC34A">componentWillUnmount</span> () {
+    <span style="color: #8BC34A">clearInterval</span>(this.interval);
+  }
+
+  <span style="color: #8BC34A">render</span> () {
+    <span style="color: #c382f7">return</span> (
+      <span style="color: #2f6f9f">&lt;div></span>Seconds Elapsed: {this.state.secondsElapsed}<span style="color: #2f6f9f">&lt;/div></span>
+    );
+  }
+}
+</b></pre>
+            </div>
+            <div class="flex-content">
+            <div style="position: absolute; top: 0; left: 0; padding: 18px; font-size: 40px">Vue</div>
+<pre style="font-size: 30px; line-height: 1; background: none; box-shadow: none; border: none">
+<b><span style="color: #2f6f9f">&lt;template></span>
+<span style="color: #2f6f9f">&lt;div></span>Seconds Elapsed: {{ secondsElapsed }}<span style="color: #2f6f9f">&lt;/div></span>
+<span style="color: #2f6f9f">&lt;/template></span>
+
+<span style="color: #2f6f9f">&lt;script></span>
+<span style="color: #626fc9">export default</span> {
+  <span style="color: #61862f">data</span>: () <span style="color: #6d0bbc">=></span> ({
+    <span style="color: #bc670f">secondsElapsed</span>: 0
+  }),
+  <span style="color: #bc670f">methods</span>: {
+    <span style="color: #61862f">tick</span> () { this.secondsElapsed += 1 }
+  },
+  <span style="color: #61862f">mounted</span> () {
+    this.interval = <span style="color: #61862f">setInterval</span>(
+      () <span style="color: #6d0bbc">=></span> this.<span style="color: #61862f">tick</span>(),
+      1000
+    )
+  },
+  <span style="color: #61862f">destroyed</span> () {
+    <span style="color: #626fc9">clearInterval</span>(this.interval)
+  }
+}
+<span style="color: #2f6f9f">&lt;/script></span>
+</b></pre>
+            </div>
+          </div>
+        </section>
+
+        <section class="fullscreen">
+          <div class="card-50">
+            <div class="flex-content bg-black">
+            <div style="position: absolute; top: 0; right: 0; padding: 18px; font-size: 40px">React</div>
+<pre style="font-size: 24px; line-height: 1; background: none; box-shadow: none; border: none">
+<b><span style="color: #626fc9">import</span> Remarkable <span style="color: #626fc9">from</span> <span style="color: #bc670f">'remarkable'</span>
+
+<span style="color: #626fc9">class</span> MarkdownEditor <span style="color: #626fc9">extends</span> React.Component {
+  <span style="color: #8BC34A">constructor</span> (props) {
+    <span style="color: #8BC34A">super</span>(props);
+    this.handleChange = this.handleChange.<span style="color: #8BC34A">bind</span>(this);
+    this.state = {<span style="color: #bc670f">value</span>: <span style="color: #bc670f">'Type some *markdown* here!'</span>};
+  }
+
+  <span style="color: #8BC34A">handleChange</span> () {
+    this.<span style="color: #8BC34A">setState</span>({<span style="color: #bc670f">value</span>: this.refs.textarea.value});
+  }
+
+  <span style="color: #8BC34A">getRawMarkup</span> () {
+    <span style="color: #626fc9">var</span> md = <span style="color: #626fc9">new</span> <span style="color: #8BC34A">Remarkable</span>();
+    <span style="color: #c382f7">return</span> { <span style="color: #bc670f">__html</span>: md.<span style="color: #8BC34A">render</span>(this.state.value) };
+  }
+
+  <span style="color: #8BC34A">render</span> () {
+    <span style="color: #c382f7">return</span> (
+      <span style="color: #2f6f9f">&lt;div</span> className="<span style="color: #d44950">MarkdownEditor</span>"<span style="color: #2f6f9f">></span>
+        <span style="color: #2f6f9f">&lt;h3></span>Input<span style="color: #2f6f9f">&lt;/h3></span>
+        <span style="color: #2f6f9f">&lt;textarea</span>
+          onChange={this.handleChange}
+          ref="<span style="color: #d44950">textarea</span>"
+          defaultValue={this.state.value} <span style="color: #2f6f9f">/></span>
+        <span style="color: #2f6f9f">&lt;h3></span>Output<span style="color: #2f6f9f">&lt;/h3></span>
+        <span style="color: #2f6f9f">&lt;div</span>
+          className="<span style="color: #d44950">content</span>"
+          dangerouslySetInnerHTML={this.<span style="color: #8BC34A">getRawMarkup</span>()}
+        <span style="color: #2f6f9f">/></span>
+      <span style="color: #2f6f9f">&lt;/div></span>
+    );
+  }
+}
+</b></pre>
+            </div>
+            <div class="flex-content">
+            <div style="position: absolute; top: 0; left: 0; padding: 18px; font-size: 40px">Vue</div>
+<pre style="font-size: 30px; line-height: 1; background: none; box-shadow: none; border: none">
+<b><span style="color: #2f6f9f">&lt;template></span>
+<span style="color: #2f6f9f">&lt;div</span> class="<span style="color: #d44950">MarkdownEditor</span>"<span style="color: #2f6f9f">></span>
+  <span style="color: #2f6f9f">&lt;h3></span>Input<span style="color: #2f6f9f">&lt;/h3></span>
+  <span style="color: #2f6f9f">&lt;textarea</span> v-model="<span style="color: #d44950">value</span>" <span style="color: #2f6f9f">/></span>
+  <span style="color: #2f6f9f">&lt;h3></span>Output<span style="color: #2f6f9f">&lt;/h3></span>
+  <span style="color: #2f6f9f">&lt;div</span> v-html="<span style="color: #d44950">rawMarkup</span>" <span style="color: #2f6f9f">/></span>
+<span style="color: #2f6f9f">&lt;/div></span>
+<span style="color: #2f6f9f">&lt;/template></span>
+
+<span style="color: #2f6f9f">&lt;script></span>
+<span style="color: #626fc9">import</span> Remarkable <span style="color: #626fc9">from</span> <span style="color: #bc670f">'remarkable'</span>
+
+<span style="color: #626fc9">export default</span> {
+  <span style="color: #61862f">data</span>: () <span style="color: #6d0bbc">=></span> ({
+    <span style="color: #bc670f">value</span>: <span style="color: #bc670f">'Type some *markdown* here!'</span>
+  }),
+  <span style="color: #bc670f">computed</span>: {
+    <span style="color: #61862f">rawMarkup</span> () {
+      <span style="color: #626fc9">const</span> md = new <span style="color: #61862f">Remarkable</span>()
+      <span style="color: #6d0bbc">return</span> md.<span style="color: #61862f">render</span>(this.value)
+    }
+  }
+}
+<span style="color: #2f6f9f">&lt;/script></span>
+</b></pre>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background dark" style="background-image:url('static/images/yoda.jpg')"></span>
+          <div class="wrap">
+              <h1 style="color: #92ff13; font-size: 60px">Vue преимущества основные</h1>
+              <ul class="flexblock specs">
+                <li><h2 style="font-size: 50px; line-height: 1">Простота</h2></li>
+                <li><h2 style="font-size: 50px; line-height: 1">Низкий порог вхождения</h2></li>
+                <li><h2 style="font-size: 50px; line-height: 1">Быстродействие</h2></li>
+                <li><h2 style="font-size: 50px; line-height: 1">Небольшой вес (26К в сжатом виде)</h2></li>
+              </ul>
+          </div>
+        </section>
+
+        <section class="bg-black" style="background: #000">
+          <div class="wrap content-center">
+            <img src="static/images/may-the-force.jpg">
+            <h2><a href="https://github.com/sms-system">github.com/sms-system</a></h2>
+            <h2><a href="https://t.me/astfrontend">t.me/astfrontend</a> @SmS_SysteM</h2>
+          </div>
+        </section>
+        
+      </article>
+    </main>
+
+    <!-- jQuery (required for slides to work) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="static/js/webslides.js"></script>
+    
+    <!-- Snowflakes -->
+    <script>
+      $(function(){
+      !function(a){function b(){j=document.getElementById("websnowjqcan"),k=j.getContext("2d"),k.canvas.width=i.width(),k.canvas.height=i.height(),console.log(k.canvas),l=document.createElement("canvas"),m=l.getContext("2d"),m.canvas.width=k.canvas.width,m.canvas.height=k.canvas.height,o=setInterval(c,200),e(),setInterval(g,30),a(window).resize(function(){a("#websnowjqcan").offset({top:a(i).offset().top,left:a(i).offset().left})})}function c(){n[n.length]=new d,n.length==p.snowFlakes&&clearInterval(o)}function d(){this.x=Math.round(Math.random()*k.canvas.width),this.y=-10,this.speed=Math.round(5*Math.random())+1,this.width=3*Math.random()+2,this.drift=Math.random()}function e(){k.save(),f();for(var a=0;a<n.length;a++)m.beginPath(),m.arc(n[a].x,n[a].y,n[a].width,0,2*Math.PI,!1),m.fillStyle="#ffffff",m.fill();k.drawImage(l,0,0,l.width,l.height),k.restore()}function f(){m.clearRect(0,0,m.canvas.width,m.canvas.height),k.clearRect(0,0,m.canvas.width,m.canvas.height)}function g(){h(),e()}function h(){for(var a=0;a<n.length;a++)n[a].y<k.canvas.height?(n[a].y+=n[a].speed,n[a].y>k.canvas.height&&(n[a].y=-5),n[a].x+=n[a].drift,n[a].x>k.canvas.width&&(n[a].x=0)):(n.splice(a,1),n[n.length]=new d)}var i=jQuery("body"),j=null,k=null,l=null,m=null,n=[],o=null,p={snowFlakes:100};b()}(jQuery);
+      })
+    </script>
+  </body>
+</html>
