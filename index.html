@@ -306,10 +306,7 @@ dojo.require(”dojo.widget.Editor2”);
     <span style="color: #61862f">tick</span> () { this.secondsElapsed += 1 }
   },
   <span style="color: #61862f">mounted</span> () {
-    this.interval = <span style="color: #61862f">setInterval</span>(
-      () <span style="color: #6d0bbc">=></span> this.<span style="color: #61862f">tick</span>(),
-      1000
-    )
+    this.interval = <span style="color: #61862f">setInterval</span>(this.<span style="color: #61862f">tick</span>, 1000)
   },
   <span style="color: #61862f">destroyed</span> () {
     <span style="color: #626fc9">clearInterval</span>(this.interval)
